@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { jsPDF } from 'jspdf';
 import Papa from 'papaparse';
 import Swal from 'sweetalert2';
-import { CSSTransition } from 'react-transition-group';
+import { CSSTransition , TransitionGroup} from 'react-transition-group';
 
 const App = () => {
   const [name, setName] = useState('');
